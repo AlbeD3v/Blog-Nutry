@@ -1,8 +1,55 @@
-# React + Vite
+# Blog Nutry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blog de estilo de vida y nutrición construido con Vite y React. Plataforma de contenido con navegación dinámica y consumo de APIs externas.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite** — Build tool ultrarrápida
+- **React 18** — Biblioteca UI
+- **TypeScript** — Tipado estático
+- **Tailwind CSS v3** — Estilos utilitarios
+- **React Router v7** — Enrutamiento del lado del cliente
+- **Axios** — Cliente HTTP
+- **Cheerio** — Parsing de HTML en el servidor
+- **ESLint** — Linting de código
+
+## Scripts
+
+```bash
+# Instalar dependencias
+npm install
+
+# Servidor de desarrollo
+npm run dev
+
+# Build de producción
+npm run build
+
+# Preview del build
+npm run preview
+
+# Linting
+npm run lint
+```
+
+## Estructura
+
+- `src/` — Código fuente de la aplicación
+- `public/` — Assets estáticos
+- `index.html` — Punto de entrada HTML
+- `vite.config.js` — Configuración de Vite
+- `tailwind.config.js` — Configuración de Tailwind CSS
+- `vercel.json` — Configuración de despliegue en Vercel
+
+## Deploy
+
+El proyecto incluye configuración para desplegarse en **Vercel** (`vercel.json`).
+
+## Requisitos
+
+- Node.js 18+
+- npm o yarn
+
+---
+
+*Proyecto de contenido sobre nutrición y estilo de vida saludable.*
